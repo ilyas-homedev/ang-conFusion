@@ -21,6 +21,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 
 import { DishService } from './services/dish.service';
+import { PromotionService } from './services/promotion.service';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
@@ -47,7 +48,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     AppRoutingModule
   ],
   providers: [
-    DishService
+    DishService,
+    PromotionService
   ],
   bootstrap: [AppComponent]
 })
